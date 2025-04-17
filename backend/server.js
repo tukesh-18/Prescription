@@ -13,7 +13,7 @@ dotenv.config();
 ConnectDB();
 // console.log(process.env.CLOUDINARY_API_KEY);
 ConnectCloudinary();
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 5000
 
 //Middlewares
 app.use(express.json());
