@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "autoprefixer": "^10.4.20",
